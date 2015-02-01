@@ -1,0 +1,43 @@
+body { font-family: Arial, sans-serif; font-size: 12px; margin: 0; color: #2a2a2a; }
+h1 { font-size: 16px; margin: 0 0 7px 0; color: #2a2a2a; }
+h2 { font-size: 14px; margin: 0 0 7px 0; color: #2a2a2a; }
+h3 { font-size: 14px; margin: 15px 0 3px 0; color: #2a2a2a; }
+p { margin: 0 0 10px 0; color: #2a2a2a; line-height: 18px; }
+.site { width: 850px; margin: 20px auto 0; background: #fff; }
+.logo { width: 205px; float: left; margin: 0 0 0 10px; }
+.logo p { padding: 0; margin: 0 0 15px; text-align: center; color: #ccc; font-size: 12px; }
+.menu { margin: 0 0 0 20px; _margin: 0 0 0 10px; padding: 0; list-style: none; float: left; font-size: 14px; }
+.menu li { float: left; *padding: 5px 0 71px 0; }
+.menu li a { color: #5a5a5a; padding: 5px 40px 71px 10px; text-decoration: none; border-left: 1px #ececec solid; }
+.menu li a:hover { color: #000; border-left: 1px #ddd solid; background: #fbfbfb; }
+.menu li a span { display: none; }
+.menu li a:hover span { font-size: 12px; display: block; position: absolute; *top: 40px; color: #bbb; padding: 2px 0 0 11px; line-height: 16px; }
+.photos { clear: both; }
+.photos ul { margin: 0; padding: 0; list-style: none; }
+.content { margin: 5px 0 0; width: 850px; border-top: 1px #ececec solid; }
+.firma { width: 468px; float: left; padding: 5px 10px 5px 5px; text-align: justify; }
+.aktualnosci_sztandarowe { width: 350px; float: left; padding: 5px 5px 5px 10px; text-align: justify; border-left: 1px #ececec solid; }
+.aktualnosci { border-bottom: 1px #ececec solid; }
+.sztandarowe { padding: 7px 0 0; }
+.sztandarowe ul { margin: 0; padding: 0; list-style: none; }
+.sztandarowe img { float: left; margin: 0 10px 0 0; }
+.sztandarowe span { vertical-align: top; text-align: justify; line-height: 10px; }
+.jednakolumna { padding: 5px; }
+.dwiekolumny_lewa { width: 409px; float: left; padding: 5px 10px 5px 5px; text-align: justify; }
+.dwiekolumny_prawa { width: 410px; float: left; padding: 5px 5px 5px 10px; text-align: justify; border-left: 1px #ececec solid; }
+.wyswietlanie { padding: 5px 5px 0; }
+.wyswietlanie p { color: #aaa; }
+.wyswietlanie a { color: #10aa00; text-decoration: none; }
+.wyswietlanie a:hover { text-decoration: underline; }
+.projekty ul { margin: 0; padding: 0; list-style: none; }
+.projekty ul li { border-top: 1px #ececec solid; margin: 0; padding: 3px 0 3px 5px; list-style: none; }
+.projekty ul li a { color: #2a2a2a; text-decoration: none; font-weight: bold; }
+.projekty ul li a:hover { color: #2a2a2a; text-decoration: underline; }
+.projekty ul li span { display: none; line-height: 18px; }
+.projekty img { width: 150px; height: 100px; padding: 4px; border: 1px #ccc dotted; margin-top: 3px; }
+
+.footer { clear: both; margin: 0 0 20px; width: 850px; border-top: 1px #ececec solid; padding: 3px 0 0; text-align: center; font-size: 10px; }
+.footer p { color: #aaa; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.menu { margin: 0 0 0 15px; }
+}
